@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0F0E16;
+}
+.website{
+    background-color: #0F0E16;
+    padding: 140px 0px;
+    width: 1500px;
+    color: white;
+    height: 880px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    
+}
+.website .main .card1{
+    padding: 30px 25px;
+    border-radius: 30px;
+    height: 450px;
+    width: 400px;
+    
+    background-color: #352e43;
+    box-shadow: -15px 0px 15px #000000;
+    float: left;
+    transition: 300ms;
+    margin-left: -80px;
+   
+}
+.website .main .card2{
+    padding: 30px 25px;
+    border-radius: 30px;
+    height: 450px;
+    width: 400px;
+    
+    background-color: #352e43;
+    box-shadow: -15px 0px 15px #000000;
+    float: left;
+    transition: 300ms;
+    margin-left: -80px;
+   
+}
+
+.scroll{
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+.scroll::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background-color:  #69588a;
+    border-radius: 30px;
+
+}
+.website .main{
+    padding-top: 40px;
+    padding-left: 150px;
+    width: 2200px;
+    background-color: #0F0E16;
+    height: 520px;
+    
+
+}
+
+
+
+.website .card1:hover{
+    margin-right: 130px;
+    transform:rotate(5deg) scale(110%);
+    
+}
+
+
+.website .card2:hover{
+     transform:rotate(5deg) scale(110%);
+}
+.card1 h4{
+   
+    display: inline-block;
+}
+.card1 h1{
+    margin-top: 15px;
+   
+}
+
+.card1 .info img{
+    position: relative;
+    top: 150px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.card1 .info h4{
+    position: relative;
+    top: 157px;
+    left: 10px;
+    float: left;
+}
+.card2 h4{
+   
+    display: inline-block;
+}
+.card2 h1{
+    margin-top: 15px;
+   
+}
+
+.card2 .info img{
+    position: relative;
+    top: 150px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.card2 .info h4{
+    position: relative;
+    top: 157px;
+    left: 10px;
+    float: left;
+}
+.buttons{
+    position: relative;
+    top: 225px;
+    right: 120px;
+}
+.buttons button{
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 5px 8px;
+    color: rgb(174, 173, 173);
+    border-radius: 40px;
+    outline: none;
+    
+
+}
+
+
+
+
+
